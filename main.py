@@ -1,10 +1,10 @@
+import random as rn
 
-def print_hi(name):
+attempts = int(input("Please enter the number: "))
 
-    print(f'Hi, {name}')
+words = ["bulka", "telefon", "bereza", "sliva"]
+session_word = rn.choice(words)
 
 
 
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
+#for i in range(attempts):
